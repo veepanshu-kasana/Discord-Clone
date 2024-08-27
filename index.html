@@ -16,7 +16,7 @@
           <img src="./images/logo.svg" alt="Logo" class="w-32 h-auto">
         </div>
         <!-- Nav Options -->
-        <div class="hidden md:flex gap-4">
+        <div class="hidden md:flex gap-4 font-ggSans">
           <a href="#" class="hover:underline">Download</a>
           <a href="#" class="hover:underline">Nitro</a>
           <a href="#" class="hover:underline">Discover</a>
@@ -38,16 +38,6 @@
           <button id="menu-button">
             <i class="fa-solid fa-bars text-2xl"></i>
           </button>
-        </div>
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden flex-col items-center bg-[#404EED] text-white space-y-4 py-4">
-          <a href="#" class="hover:underline">Download</a>
-          <a href="#" class="hover:underline">Nitro</a>
-          <a href="#" class="hover:underline">Discover</a>
-          <a href="#" class="hover:underline">Safety</a>
-          <a href="#" class="hover:underline">Support</a>
-          <a href="#" class="hover:underline">Blog</a>
-          <a href="#" class="hover:underline">Careers</a>
         </div>
       </nav>
       
@@ -337,15 +327,6 @@
     </div>
 
     <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
-
-    <script>
-      const menuButton = document.getElementById('menu-button');
-      const mobileMenu = document.getElementById('mobile-menu');
-
-      menuButton.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
-      });
-    </script>
 
 </body>
 </html>
